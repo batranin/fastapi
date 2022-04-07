@@ -5,7 +5,7 @@ def connectdb():
     # Подключиться к базе данных.
     connection = pymysql.connect(host='localhost',
                              user='root',
-                             password='NitroGen12Opl{@}',                             
+                             password='12345678',                             
                              db='goods',
                              charset='utf8mb4',
                              cursorclass=pymysql.cursors.DictCursor) 
